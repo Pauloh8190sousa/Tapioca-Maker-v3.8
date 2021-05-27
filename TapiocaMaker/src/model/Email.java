@@ -13,9 +13,9 @@ public class Email {
 		email.setSSLOnConnect(true);
 		email.setHostName( "smtp.gmail.com" );
 		email.setSslSmtpPort( "465" );
-		email.setAuthenticator( new DefaultAuthenticator( "tapiocamakerbr@gmail.com" , "WuyAnG271724" ) );
+		email.setAuthenticator( new DefaultAuthenticator( "tapiocamaker@email.com" , "**************" ) );
 			try {
-				email.setFrom("tapiocamakerbr@gmail.com");
+				email.setFrom("tapiocamaker@email.com");
 			    email.setDebug(true); 
 			    email.setSubject(assunto);
 				email.setMsg(msg);
@@ -38,9 +38,9 @@ public class Email {
 		email.setSSLOnConnect(true);
 		email.setHostName( "smtp.gmail.com" );
 		email.setSslSmtpPort( "465" );
-		email.setAuthenticator( new DefaultAuthenticator("tapiocamakerbr@gmail.com" ,"WuyAnG271724") );
+		email.setAuthenticator( new DefaultAuthenticator("tapiocamaker@email.com" ,"**************") );
 		try {
-			email.setFrom("tapiocamakerbr@gmail.com");
+			email.setFrom("tapiocamaker@email.com");
 			email.setDebug(true); 
 			email.setSubject(assunto);
 			email.setMsg(msg);
